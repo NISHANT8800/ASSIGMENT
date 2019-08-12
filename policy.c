@@ -14,12 +14,12 @@ int main()
             if(Health=='E'&&Lives=='C')
              {
                Premium=4000;
-               printf("Premium=%d",Premium);
+               printf("Premium=%d \nAnd you can insured for RS. 2 lakhs only  ",Premium);
              }
             else if(Health=='P'&&Lives=='V')
             {
                 Premium=6000;
-                printf("Premium=%d",Premium);
+                printf("Premium=%d\nAnd you can insured for RS.10,000 only",Premium);
             }
 
            }
@@ -28,12 +28,11 @@ int main()
     {
         if((Age>25&&Age<35)&&Health=='E'&&Lives=='C')
             Premium=3000;
-            printf("Premium=%d",Premium);
+            printf("Premium=%d \nAnd you can insured for RS. 1 lakhs only",Premium);
     }
-    else 
+    else
     {
-    	printf("Your not applicable for this policy \nsorry ");
+    	printf("Your not insured for this policy \nsorry ");
 	}
 return 0;
 }
-
